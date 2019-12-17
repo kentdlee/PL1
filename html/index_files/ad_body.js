@@ -1,0 +1,15 @@
+google_ad_client = "pub-4542587708868832";
+//google_ad_client = "pub-3759201438604975";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_channel = "";
+google_ad_type = "text";
+google_color_border = "336699";
+google_color_bg = "FFFFFF";
+//google_color_link = "336699"; TODO try this
+google_color_link = "0000FF";
+//google_color_url = "008000";
+google_color_url = "FF0000";
+//google_color_url = "336699";
+google_color_text = "000000";

@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Programming Languages: An Active Learning Approach</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="Programming Languages" name=keywords>
+<META content="Support files for Programming Languages: Models of Computation by Kent D. Lee" name=description>
+<LINK media=print href="index_files/print.css" type=text/css rel=stylesheet>
+<LINK title=Vellum media=screen href="index_files/orangeblue.css" type=text/css rel=stylesheet>
+<LINK title="Printer Friendly" href="index_files/print.css" type=text/css rel="alternate stylesheet">
+<META content="MSHTML 6.00.2900.3020" name=GENERATOR>
+</HEAD>
+<BODY>
+<DIV id=pagehead>
+<H1><A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages">Programming Languages: <span class=subtitle><strong>An Active Learning Approach</strong> by Kent D. Lee
+</SPAN></a>
+ </H1>
+</DIV><!-- div pagehead -->
+<DIV id=pagemenu>
+<UL>
+  <LI><A href="http://www.cs.luther.edu/~leekent/">Kent's Home Page</A> 
+</UL></DIV><!-- div pagemenu -->
+<DIV id=submenu>
+<UL>
+  <LI><A href="#chap2">Chapter 2</A> 
+  <LI><A href="#chap3">Chapter 3</A> 
+  <LI><A href="#chap4">Chapter 4</A>
+  <LI><A href="#chap6">Chapter 6</A> 
+  <LI><A href="#chap7">Chapter 7</A> 
+  <LI><A href="#chap8">Chapter 8</A>
+  <LI><A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/Errata.html">Errata</A>
+</ul>
+</div>
+<DIV id=pagebody>
+<DIV class=content id=content>
+<H1>Welcome!</H1>
+<p>This book has been replaced by the newer and much enhanced <strong>Foundations of Programming Languages</strong>. <a href="http://cs.luther.edu/~leekent/PL">The webpage for this new text can be found here.</a> This page is left here for reference to the old text only.</p>
+
+<P>Welcome to the web page for <strong>Programming Languages: An Active Learning Approach</strong> written by Kent D. Lee and <a href="http://www.springer.com/computer/programming/book/978-0-387-79421-1">published by Springer Science</a>. This book was written as an introductory undergraduate text in Programming Languages. The text is oriented towards students who have taken an introductory sequence of courses using an Object-Oriented imperative programming language. However, it can be used by students with programming skills in any language. The intent of the text is to teach students how to program in the three programming paradigms: Object-Oriented Imperative , Functional, and Logic. While teaching skills like pattern-matching, recursion, and the use of unification the three paradigms are contrasted to show the differences between languages of these types. In addition, important aspects of programming languages are discussed that affect software reliability and the ease of programming. </P>
+<P>The text is very hands on with many examples, practice exercises (with solutions!), and programming projects. The best way to teach from this text is to make lectures interactive with students working through practice exercises during class. They may check their work against the solutions at the end of each chapter as they work through the text. The projects and exercises reinforce what was taught in the chapter. Many of the projects have source code provided to help the students in getting started. Downloads for each of the chapters are provided below. </P>
+<h2>Errata and Suggestions</h2>
+<P>I hope both professors and students enjoy using the text! I hope to get constructive feedback from folks so if you find an error or have a suggestion don't hesitate to email me. My email is kentdlee at luther.edu. The <a href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/Errata.html">Errata page</a> is for typos or other problems in the text. Please consult the Errata page if you are unsure whether or not you've discovered an unknown problem in the text. If you have  suggestions you would like to make for future printings of the text, please email me. </P>
+<h2>Lecture Slides and Solutions to Exercises</h2>
+<P>If you are an instructor using or considering using the text to teach a course and would like lecture slides and solutions to exercises, I would be happy to provide them. Detailed lecture slides are available with all examples and practice problems from the text. Please email me and provide me with information about where you are teaching and a web site where I can verify that you are a teacher at your institution and I will email you a userid, password, and link where you can download the support materials.</P>
+<H2>News</H2>
+<ul>
+  <li>Website made available January of 2007. </li>
+  <li>3-11-2008. The book will be published by Springer Science and should be available for Fall 2008.</li>
+  <li>09-04-2008. <a href="http://www.springer.com/computer/programming/book/978-0-387-79421-1">Book is now available from Springer</a>.</li>
+</ul>
+<h2>Support Files for Individual Chapters</h2>
+<p>The following sections contain support files for individual chapters. These support files may be downloaded by students or faculty to complete projects from each of the chapters below. </p>
+<H3 id=chap2>Chapter 2</H3>
+<DIV class=published>Last Updated : 2007-01-01</DIV>
+<P><strong>Download:</strong> <A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/ewe.zip">The EWE Interpreter
+</A><BR>
+The EWE language is an extended version of Sethi's RAM (Random Access Machine) language. EWE was written to simulate a very simple machine with random access storage. The machine can store integers, one per memory location. There is also some language support for storing strings (as strings of integers representing ASCII characters). The BNF for the language is in chapter two of the book and several exercises require the students to write EWE programs. They can check their programs with the interpreter provided here. The interpreter may be compiled by downloading and installing the Standard ML of New Jersey implementation of ML. The interpreter is almost completely written in ML. While written in ML, one  support file (the ewe script) assumes that the underlying implementation supports a scripting language to start the interpreter. A Makefile is also supplied to easily make the interpreter. If you are downloading this code to a Windows machine you may have to execute the commands in the Makefile by hand to make the project. A short batch program can be used to start the interpreter. See the ewe script supplied with the installation for details on what to put in the batch file. </P>
+<H3 id=chap3>Chapter 3</H3>
+<DIV class=published>Last Updated : 2007-01-01</DIV>
+<P><strong>Download:</strong> <A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/cppcalc.zip">The C++ Calculator Language Interpreter
+</A><BR>
+<p>This is the C++ Calculator Language Interpeter code. Enough code is provided to get students started on the project given at the end of the 
+chapter. The Calculator Language is the language of expressions with a memory location that may be stored to and retrieved during expression evaluation.
+To complete the project a recursive-descent parser must be completed as well as code to evaluate the Abstract Syntax Tree (AST) associated
+with an expression to be evaluated. The code that is provided here will add and subtract integers with no modification.</p>
+<p>Students learn about the structure of an interpreter. At the same time they learn about C++ programming including the organization of code
+within a C++ project, use of the C++ preprocessor for class declaration and separate compilation.</p>
+<H3 id=chap4>Chapter 4</H3>
+<DIV class=published>Last Updated : 2007-01-01</DIV>
+<P><strong>Download:</strong> <A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/rubycalc.zip">The Ruby Calculator Language Interpreter</A>
+<P>This is the Ruby Calculator Language Interpeter code. This project is a repeat of the C++ Calculator Language Interpreter. Given that there 
+may not be enough time in a semester to do both projects, one or the other may be chosen. Completing both projects will illustrate the difference
+between a statically typed, compiled language (C++) and a dynamically typed, interpreted language. Ruby implements polymorphism by delaying 
+method and instance variable lookup until run-time through the use of a hash table lookup of instance variables and methods.
+<P>There is less overhead involved in learning and using Ruby so if C++ is new to students and time is limited, the Ruby project will be easier
+to introduce and bring students up to speed on.
+
+<P><strong>Download:</strong> <A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/rubycalccomp.zip">The Ruby Calculator Language Compiler</A><BR>
+<p>Exercise 7 at the end of the chapter requires you to implement a compiler instead of an interpreter for calculator expressions. The compiler targets the EWE language presented in chapter 2. The code provided in the download above will get you started implementing a compiler in Ruby.</p>
+<H3 id=chap6>Chapter 6</H3>
+<DIV class=published>Last Updated : 2007-01-01</DIV>
+<P><strong>Download:</strong> <A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/mlcalc.zip">The Standard ML Calculator Language Compiler
+</A><BR>
+<p>This is the Standard ML Calculator Language compiler. The compiler targets the EWE machine presented in chapter 2. The language is 
+extended through a series of incremental projects. Extensions are somewhat independent of each other so not every project has to be completed 
+to proceed to the next one. A register machine is simulated using the EWE target language. The compiler uses a register allocation framework
+to manage the allocation of registers in a stack machine like fashion. </p>
+<p>Students learn the difference between compile-time and run-time issues. The learn about register management and how the functional
+design of a compiler using pattern-matching and strong type checking.</p>
+<H3 id=chap7>Chapter 7</H3>
+<DIV class=published>Last Updated : 2007-01-01</DIV>
+<P><strong>Download:</strong> <A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/family.prolog">The Prolog Family Tree Example</A>
+<p>This is the Prolog family tree database from the text. Several examples, practice problems, and exercises depend on this data. To avoid 
+retyping all the information you may download it here.</p>
+<P><strong>Download:</strong> <A href="http://www.cs.luther.edu/~leekent/ProgrammingLanguages/bst.prolog">The Prolog Binary Search Tree Example</A>
+<p>This is the Prolog binary search tree code. A few examples use this code. A couple of projects extend the code provided here.</p>
+<P><strong>Project:</strong> The Prolog Calculator Language Interpreter
+<p>There is no code download provided for the Prolog Calculator Language interpreter. However, the predicate for starting the 
+interpreter should be something like this:</p>
+<p>
+calc :- read a line, preprocess the line, parse the expression, evaluate the AST.
+</p>
+<p>Each of the steps outlined above is described in the text. To invoke the calculator you query Prolog with the calc predicate. There are no 
+parameters provided when querying with the calc predicate. </p>
+<H3 id=chap8>Chapter 8</H3>
+<DIV class=published>Last Updated : 2007-01-01</DIV>
+<P><strong>Download:</strong> <A href="http://www.cs.luther.edu/%7Eleekent/ProgrammingLanguages/genesis.zip">The Genesis Action Semantics Compiler Generator</A>
+<p>Genesis is a compiler generator for Action Semantic Descriptions. It is based on the work of Peter Mosses and David Watt. While written
+from scratch, some of it was inspired by the Actress compiler generator of Hermano Moura and Deryck Brown (and others). To use Genesis you must download
+Genesis from here. You need to install Standard ML of New Jersey and the Jasmin Java assembler. You need to set your path to include the programs from both
+Standard ML and Jasmin. Then you should proceed to the installation instructions below.</p>
+<p>The Genesis compiler generator is meant to be installed by each individual that will use it. It is not currently
+written to be installed site-wide. To install the compiler generator you must have already installed Standard ML and 
+the Jasmin Java assembler. Genesis will generate compilers that either target the JVM or MIPS assembly language. A MIPS simulator
+is available if you want to target MIPS assembly language. Send email to <a href="mailto:leekentd@luther.edu">me</a> to get the MIPS simulator. To install Genesis, download the zipped file above and unzip it. In the genesis directory edit the genesis script so the GENPATH variable points to the current location of the genesis directory</p>
+<p><strong>GENPATH=/path/to/the/script/genesis </strong></p>
+<p>Then, link to the genesis script from your path. For instance,</p>
+<p><strong>cd ~/bin<br>
+ln -s ../genesis/genesis</strong></p>
+<p>Then you can change directory to your genesis folder and type &quot;make&quot; to make the compiler generator. Finally, you can go to the examples/small subdirectory and type</p>
+<p><strong>genesis small jvm</strong></p>
+<p>and it will generate a compiler from the Action Semantics Definition called small.asd. The generated compiler is called smallc and you can run it to compile a file</p>
+<p><strong>smallc test28.small</strong></p>
+<p>to run a test program you can run the java virtual machine </p>
+<p>java test28</p>
+<p>That should do it. You can modify the Action Semantic Definitions provided to suit your needs or write your own description from scratch. <em>This is research code so use at your own risk. All code is mine and no portion of it should be used for commercial purposes without my written consent. </em></p>
+</div>
+</DIV>
+<em>
+<!-- div pagebody --> 
+</em>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<DIV id=pagebar><IMG class=banner title="Layers upon Layers" height=129 
+alt=banner src="index_files/layers.jpg" width=200 border=0> 
+<H1>Layers Upon Layers</H1>
+<P>This picture was taken while ascending to Gunsight Pass in Glacier National Park. The layers you see are metamorphic rock that have been pushed up
+by forces within the earth. The layers remind me that Computer Science is possible because of the work others have done. The layers below are
+all the work that has gone before. The study of Programming Languages can help us understand some of these layers as they apply to Computer Science. 
+The more we understand the tools we use, the better we are at using those tools. </div>
+</BODY></HTML>

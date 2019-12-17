@@ -1,0 +1,6 @@
+AuthName "Programming Languages Courseware"
+AuthType Basic
+AuthUserFile /home/faculty/leekent/.kdlplpermissions/.htpasswd
+AuthGroupFile /dev/null
+require valid-user
+
